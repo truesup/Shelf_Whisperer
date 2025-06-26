@@ -6,8 +6,11 @@ import {
   CardFooter,
 } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
+import { useNavigate } from 'react-router-dom'
 
 export default function WelcomeScreen() {
+  const navigate = useNavigate()
+
   return (
     <Card className="w-full max-w-xl mx-auto p-8 shadow-md">
       <CardHeader className="text-center">
@@ -29,8 +32,10 @@ export default function WelcomeScreen() {
         </p>
       </CardContent>
       <CardFooter className="pt-3 flex justify-center">
-        <Button className="group px-6 py-2 h-10 text-sm font-medium cursor-pointer">
-          Okay, let's find a book than!
+        <Button
+          className="group px-6 py-2 h-10 text-sm font-medium cursor-pointer"
+          onClick={() => navigate('/mode-select')}>
+          Okay, let's find a book then!
         </Button>
       </CardFooter>
     </Card>
