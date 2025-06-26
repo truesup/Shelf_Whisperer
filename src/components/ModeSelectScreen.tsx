@@ -18,14 +18,16 @@ export default function ModeSelectScreen() {
       <div className="flex align-center justify-center gap-6">
         <Card className="flex-1/2">
           <CardHeader className="flex align-center justify-between">
-            <CardTitle>Option one - describe your mood</CardTitle>
+            <CardTitle>Let the mood guide you</CardTitle>
             <Sparkles className="text-foreground h-[20px] w-[20px]" />
           </CardHeader>
           <CardContent className="text-justify">
             <p>
-              Not sure what you want to read? Just tell us how you feel or what
-              you’re in the mood for — in a sentence or two. We’ll take it from
-              there and suggest something that matches your vibe.
+              Not quite sure what to read next? Just tell us how you're feeling
+              — cozy, restless, curious, nostalgic — and we'll suggest a book
+              that captures your emotional state. No need to overthink it: a
+              sentence or two is enough for our AI to match your vibe to a
+              fitting story.
             </p>
           </CardContent>
           <CardFooter>
@@ -34,14 +36,15 @@ export default function ModeSelectScreen() {
         </Card>
         <Card className="flex-1/2">
           <CardHeader className="flex align-center justify-between">
-            <CardTitle>Option two - be specific</CardTitle>
+            <CardTitle>Craft your perfect story</CardTitle>
             <Settings className="text-foreground h-[20px] w-[20px]" />
           </CardHeader>
           <CardContent className="text-justify">
             <p>
-              Already know what you’re looking for? Use this mode to fine-tune
-              your request: pick a genre, setting, type of protagonist, or key
-              plot details — and we’ll tailor the book suggestions just for you.
+              Have something more specific in mind? This mode gives you full
+              control: choose the genre, tone, setting, character types, themes
+              — even the kind of ending you’d prefer. Ideal for when you know
+              what you’re looking for and want to fine-tune the experience.
             </p>
           </CardContent>
           <CardFooter>

@@ -1,4 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('/src/assets/fonts/Literata-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
 
 @import 'tailwindcss';
 @import 'tw-animate-css';
@@ -56,58 +125,6 @@
     2px 8px 10px -1px hsl(28 13% 20% / 0.12);
   --shadow-2xl: 2px 3px 5px 0px hsl(28 13% 20% / 0.3);
 }
-
-/* .dark {
-  --background: oklch(0.9771 0.0074 80.7212);
-  --foreground: oklch(0.2886 0.0069 48.47);
-  --card: oklch(0.9502 0.0138 67.6607);
-  --card-foreground: oklch(0.2886 0.0069 48.47);
-  --popover: oklch(0.9502 0.0138 67.6607);
-  --popover-foreground: oklch(0.2886 0.0069 48.47);
-  --primary: oklch(0.8874 0.0339 73.169);
-  --primary-foreground: oklch(0.3148 0.024 47.9386);
-  --secondary: oklch(0.9356 0.0155 67.6362);
-  --secondary-foreground: oklch(0.3724 0.0195 37.7925);
-  --muted: oklch(0.9094 0.0154 61.3298);
-  --muted-foreground: oklch(0.5001 0.022 51.6691);
-  --accent: oklch(0.8477 0.0332 71.8491);
-  --accent-foreground: oklch(0.3148 0.024 47.9386);
-  --destructive: oklch(0.564 0.1435 28.7235);
-  --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.8696 0.0193 67.5698);
-  --input: oklch(0.9604 0.0096 72.6615);
-  --ring: oklch(0.8874 0.0339 73.169);
-  --chart-1: oklch(0.7988 0.0482 67.0444);
-  --chart-2: oklch(0.7102 0.0491 60.5485);
-  --chart-3: oklch(0.6303 0.067 64.5376);
-  --chart-4: oklch(0.7641 0.0487 66.9893);
-  --chart-5: oklch(0.5627 0.05 62.1381);
-  --sidebar: oklch(0.9661 0.0107 76.5988);
-  --sidebar-foreground: oklch(0.2886 0.0069 48.47);
-  --sidebar-primary: oklch(0.8874 0.0339 73.169);
-  --sidebar-primary-foreground: oklch(0.3148 0.024 47.9386);
-  --sidebar-accent: oklch(0.8477 0.0332 71.8491);
-  --sidebar-accent-foreground: oklch(0.3148 0.024 47.9386);
-  --sidebar-border: oklch(0.8696 0.0193 67.5698);
-  --sidebar-ring: oklch(0.8874 0.0339 73.169);
-  --font-sans: 'Sora', sans-serif;
-  --font-serif: 'Sora', sans-serif;
-  --font-mono: 'Sora', sans-serif;
-  --radius: 0.25rem;
-  --shadow-2xs: 2px 3px 5px 0px hsl(28 13% 20% / 0.06);
-  --shadow-xs: 2px 3px 5px 0px hsl(28 13% 20% / 0.06);
-  --shadow-sm: 2px 3px 5px 0px hsl(28 13% 20% / 0.12),
-    2px 1px 2px -1px hsl(28 13% 20% / 0.12);
-  --shadow: 2px 3px 5px 0px hsl(28 13% 20% / 0.12),
-    2px 1px 2px -1px hsl(28 13% 20% / 0.12);
-  --shadow-md: 2px 3px 5px 0px hsl(28 13% 20% / 0.12),
-    2px 2px 4px -1px hsl(28 13% 20% / 0.12);
-  --shadow-lg: 2px 3px 5px 0px hsl(28 13% 20% / 0.12),
-    2px 4px 6px -1px hsl(28 13% 20% / 0.12);
-  --shadow-xl: 2px 3px 5px 0px hsl(28 13% 20% / 0.12),
-    2px 8px 10px -1px hsl(28 13% 20% / 0.12);
-  --shadow-2xl: 2px 3px 5px 0px hsl(28 13% 20% / 0.3);
-} */
 
 @theme inline {
   --color-background: var(--background);
