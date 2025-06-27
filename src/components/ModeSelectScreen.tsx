@@ -7,8 +7,11 @@ import {
 } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Sparkles, Settings } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 export default function ModeSelectScreen() {
+  const navigate = useNavigate()
+
   return (
     <div className="w-3/4">
       <h2 className="w-full text-2xl font-semibold text-center mb-6">
@@ -16,7 +19,7 @@ export default function ModeSelectScreen() {
         current mood:
       </h2>
       <div className="flex align-center justify-center gap-6">
-        <Card className="flex-1/2">
+        <Card className="flex-1/2 select-none transition-all duration-300 hover:scale-[1.002] hover:shadow-xl">
           <CardHeader className="flex align-center justify-between">
             <CardTitle>Let the mood guide you</CardTitle>
             <Sparkles className="text-foreground h-[20px] w-[20px]" />
@@ -31,10 +34,14 @@ export default function ModeSelectScreen() {
             </p>
           </CardContent>
           <CardFooter>
-            <Button className="w-full">Surprise me!</Button>
+            <Button
+              className="w-full"
+              onClick={() => navigate('/quick-search')}>
+              Surprise me!
+            </Button>
           </CardFooter>
         </Card>
-        <Card className="flex-1/2">
+        <Card className="flex-1/2 select-none transition-all duration-300 hover:scale-[1.002] hover:shadow-xl">
           <CardHeader className="flex align-center justify-between">
             <CardTitle>Craft your perfect story</CardTitle>
             <Settings className="text-foreground h-[20px] w-[20px]" />
@@ -48,7 +55,11 @@ export default function ModeSelectScreen() {
             </p>
           </CardContent>
           <CardFooter>
-            <Button className="w-full">Choose details</Button>
+            <Button
+              className="w-full"
+              onClick={() => navigate('/detailed-search')}>
+              Choose details
+            </Button>
           </CardFooter>
         </Card>
       </div>
