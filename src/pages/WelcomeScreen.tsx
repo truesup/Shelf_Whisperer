@@ -54,73 +54,73 @@ export default function WelcomeScreen() {
       <img
         src={BookOpenedIcon}
         alt=""
-        className="absolute top-[-54%] left-[-50%] w-44"
+        className="absolute top-[-54%] left-[-50%] w-44  icon-float"
       />
 
       <img
         src={FlowerIcon}
         alt=""
-        className="absolute top-[-66%] left-[0] w-40"
+        className="absolute top-[-66%] left-[0] w-40 icon-wiggle"
       />
 
       <img
         src={MoonIcon}
         alt=""
-        className="absolute top-[-56%] right-[16%] w-32"
+        className="absolute top-[-56%] right-[16%] w-32  icon-float"
       />
 
       <img
         src={TeaCupIcon}
         alt=""
-        className="absolute top-[-60%] right-[-46%] w-40"
+        className="absolute top-[-60%] right-[-46%] w-40 icon-wiggle"
       />
 
       <img
         src={CandleIcon}
         alt=""
-        className="absolute top-[0%] right-[-60%] w-36"
+        className="absolute top-[0%] right-[-60%] w-36 icon-float"
       />
 
       <img
         src={LampaIcon}
         alt=""
-        className="absolute bottom-[0%] left-[130%] w-28"
+        className="absolute bottom-[0%] left-[130%] w-28 icon-wiggle"
       />
 
       <img
         src={ChairIcon}
         alt=""
-        className="absolute bottom-[-60%] right-[-40%] w-42"
+        className="absolute bottom-[-60%] right-[-40%] w-42 icon-float"
       />
 
       <img
         src={LoopaIcon}
         alt=""
-        className="absolute bottom-[-52%] right-[6%] w-22"
+        className="absolute bottom-[-52%] right-[6%] w-22 icon-wiggle"
       />
 
       <img
         src={PeroIcon}
         alt=""
-        className="absolute bottom-[-56%] left-[40%] w-28"
+        className="absolute bottom-[-56%] left-[40%] w-28 icon-float"
       />
 
       <img
         src={TwoBooksIcon}
         alt=""
-        className="absolute bottom-[-66%] left-[-140px] w-38"
+        className="absolute bottom-[-66%] left-[-140px] w-38 icon-wiggle"
       />
 
       <img
         src={CatIcon}
         alt=""
-        className="absolute bottom-[-100px] left-[-320px] w-32"
+        className="absolute bottom-[-100px] left-[-320px] w-32 icon-float"
       />
 
       <img
         src={LightIcon}
         alt=""
-        className="absolute top-[18%] left-[-48%] w-30"
+        className="absolute top-[18%] left-[-48%] w-30 icon-wiggle"
       />
     </div>
   )
