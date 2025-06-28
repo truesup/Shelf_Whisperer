@@ -68,6 +68,7 @@ export default function QuickSearchForm() {
           className="h-full resize-none rounded-md"
           value={promptValue}
           onChange={e => setPromptValue(e.target.value)}
+          autoComplete="off"
         />
 
         <CardFooter className="p-0">
