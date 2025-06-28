@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
-import WelcomeScreen from './components/WelcomeScreen'
-import ModeSelectScreen from './components/ModeSelectScreen'
-import QuickSearchForm from './components/QuickSearchForm'
-import DetailedSearchForm from './components/DetailedSearchForm'
+import WelcomeScreen from './pages/WelcomeScreen'
+import ModeSelectScreen from './pages/ModeSelectScreen'
+import QuickSearchForm from './pages/QuickSearchForm'
+import DetailedSearchForm from './pages/DetailedSearchForm'
 
 export default function App() {
   return (
