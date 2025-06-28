@@ -1,15 +1,15 @@
 import { ChevronLeft, Sparkles } from 'lucide-react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Button } from '../components/ui/button'
-import { Textarea } from '../components/ui/textarea'
-import { Card, CardHeader, CardFooter } from '../components/ui/card'
+import { Button } from '@/components/ui/button'
+import { Textarea } from '@/components/ui/textarea'
+import { Card, CardHeader, CardFooter } from '@/components/ui/card'
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from '../components/ui/tooltip'
-import LittlePrinceImg from '../assets/imgs/little-prince.jpg'
+import LittlePrinceImg from '../assets/imgs/modes/little-prince.jpg'
 import { randomPrompts } from '../utils/static/easyModePrompts'
 
 export default function QuickSearchForm() {
