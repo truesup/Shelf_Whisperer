@@ -71,7 +71,7 @@ export default function QuickSearchForm() {
         />
 
         <CardFooter className="p-0">
-          <Button className="w-full py-2">Let the magic begin!</Button>
+          <Button className="w-full py-4">Let the magic begin!</Button>
         </CardFooter>
       </div>
 
