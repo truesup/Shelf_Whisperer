@@ -9,10 +9,10 @@ export default function PageWrapper({ children }: PageWrapperProps) {
   return (
     <motion.div
       className="flex items-center justify-center w-full h-full"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.6 }}>
+      initial={{ scale: 0.9, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      exit={{ scale: 0.9, opacity: 0 }}
+      transition={{ duration: 0.8 }}>
       {children}
     </motion.div>
   )
