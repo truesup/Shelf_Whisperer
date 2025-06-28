@@ -32,7 +32,7 @@ export default function WelcomeScreen() {
         </p>
       </CardContent>
       <CardFooter className="pt-3 flex justify-center">
-        <Button onClick={() => navigate('/mode-select')}>
+        <Button onClick={() => navigate('/mode-select')} className="py-4">
           Okay, let's find a book then!
         </Button>
       </CardFooter>

@@ -27,7 +27,7 @@ export default function QuickSearchForm() {
       <div className="flex flex-col justify-between gap-4 p-6 flex-1">
         <CardHeader className="w-full p-0 flex items-center justify-between text-xl font-semibold">
           <Tooltip>
-            <TooltipTrigger>
+            <TooltipTrigger asChild>
               <Button
                 className="h-full aspect-square"
                 size="icon"
@@ -43,7 +43,7 @@ export default function QuickSearchForm() {
           <span>Feeling spontaneous?</span>
 
           <Tooltip>
-            <TooltipTrigger>
+            <TooltipTrigger asChild>
               <Button
                 className="h-full aspect-square"
                 size="icon"
