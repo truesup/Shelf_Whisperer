@@ -8,7 +8,7 @@ interface PageWrapperProps {
 export default function PageWrapper({ children }: PageWrapperProps) {
   return (
     <motion.div
-      className="flex items-center justify-center w-full h-full"
+      className="flex items-center justify-center w-full h-full relative"
       initial={{ scale: 0.9, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       exit={{ scale: 0.9, opacity: 0 }}

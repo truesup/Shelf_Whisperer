@@ -202,7 +202,7 @@
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-4px);
+    transform: translateY(-8px);
   }
 }
 @keyframes wiggle {
@@ -211,12 +211,27 @@
     transform: rotate(0deg);
   }
   50% {
+    transform: rotate(4deg);
+  }
+}
+@keyframes tilt {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  75% {
     transform: rotate(2deg);
   }
 }
 .icon-float {
-  animation: float 3s ease-in-out infinite;
+  animation: float 2s ease-in-out infinite;
 }
 .icon-wiggle {
-  animation: wiggle 4s ease-in-out infinite;
+  animation: wiggle 2s ease-in-out infinite;
+}
+.icon-tilt {
+  animation: tilt 3.5s ease-in-out infinite;
 }
