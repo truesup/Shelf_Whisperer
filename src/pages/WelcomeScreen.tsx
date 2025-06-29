@@ -23,7 +23,7 @@ export default function WelcomeScreen() {
 
   return (
     <>
-      <Card className="w-full max-w-xl mx-auto py-6 px-4 shadow-md">
+      <Card className="w-full max-w-xl mx-auto py-6 px-4 shadow-md transition-all duration-300 hover:scale-[1.002] hover:shadow-2xl">
         <CardHeader className="text-center">
           <CardTitle className="text-xl font-semibold">
             Hello and welcome!
